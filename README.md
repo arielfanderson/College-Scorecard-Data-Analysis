@@ -19,5 +19,18 @@ According to the [U.S. Department of Social Security](https://www.ssa.gov/policy
  - Scipy
  - Statsmodels
 
+```python
+# Data manipulation, cleaning, aggregation, and plots.
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
+import statsmodels.api as sm
+
+# Access data files.
+import os
+```
+
 * Tableau
 
