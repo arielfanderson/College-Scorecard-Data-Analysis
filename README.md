@@ -50,8 +50,12 @@ The second part of this project examines tuition rates as well as debt held by s
 
 The part of the project looks at earnings. Earnings are measured 6 years after a student graduates. Currently, earnings data is available from academic year 2003-2004 to 2014-2015.  ACT midpoint data is avaiable starting 2009-2010. Therefore, this data looks at the academic years 2009-2010 to 2014-2015. Data was cleaned to reflect this timelime. 
 
-The first example looks at various variables to determine if earnings may be correlated with another value. Admission rate, debt median, tution in state, tuition out of state, SAT average, ACT English midpoint, ACT Math midpoint, ACT Writing midpoint, and ACT Composite midpoint. were selected from the dataset as possible variables that may correlate with earnings 6 years after graduation of a 4 year institution. A correlation coefficient is found for the correlation between the selected varibales and future earnings. The highest correlation is selected, and Statsmodels is used to demonstrate an Ordinary Least Squares Model. The OLS model is visualized. 
+The first example looks at various variables to determine if earnings may be correlated with another value. Admission rate, debt median, tution in state, tuition out of state, SAT average, ACT English midpoint, ACT Math midpoint, ACT Writing midpoint, and ACT Composite midpoint. were selected from the dataset as possible variables that may correlate with earnings 6 years after graduation of a 4 year institution. A correlation coefficient is found for the correlation between the selected varibales and future earnings. The highest correlation is selected, and Statsmodels is used to demonstrate an Ordinary Least Squares Model. The OLS model is visualized. Note that the highest correlation was found between ACT Math score and future earnings, with a correlation coefficient of 0.736. 
 
 The final method in this section is visualizing earnings, by academic year, as box plots. The visualization can seen in the jupyter notebook. 
+
+## Admissions Rates
+
+This section looks at trends in admission rates based on SAT and ACT scores. SAT scores are broken down into sections: Math and Verbal. Data is cleaned to reflect the needs of this section. This section demonstrates distribution fitting, boolean masking, data aggregration, and simple, yet effective, visulaizations of admission rate data. Please see the jupyter notebook for comphrehensive analysis. 
 
 
