@@ -11,14 +11,10 @@ According to the [U.S. Department of Social Security](https://www.ssa.gov/policy
 * Data Analysis 
 
 # Technologies 
-* Python 
- - Pandas
- - Numpy
- - Seaborn
- - Matplotlib
- - Scipy
- - Statsmodels
+* Python
+* Tableau
 
+# Dependencies 
 ```python
 # Data manipulation, cleaning, aggregation, and plots.
 import pandas as pd
@@ -32,5 +28,5 @@ import statsmodels.api as sm
 import os
 ```
 
-* Tableau
+
 
