@@ -11,13 +11,13 @@ According to the [U.S. Department of Social Security](https://www.ssa.gov/policy
 -Data Analysis 
 
 # Technologies 
-*Python 
- *Pandas
- *Numpy
- *Seaborn
- *Matplotlib
- *Scipy
- *Statsmodels
+* Python 
+ * Pandas
+ * Numpy
+ * Seaborn
+ * Matplotlib
+ * Scipy
+ * Statsmodels
 
-*Tableau
+* Tableau
 
